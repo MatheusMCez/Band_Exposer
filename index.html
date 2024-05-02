@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="pt-Br" dir="ltr">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Band Exposer</title>
+
+    <!-- Link do CSS do Swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Link do CSS do Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link do CSS do Site -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- <link rel="icon" href="icons/favicon.ico"> -->
+    <!-- Link para as Fontes do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Metal&family=Metal+Mania&display=swap" rel="stylesheet">
+
+ 
+  </head>
+
+  <body>
+
+    <header>
+
+      <section id="header_Intro">
+
+        <div class="head_container">
+          <h1 id="myname"> Bem vindo ao Band Exposer, </h1>
+          <h2 id="h2_header"> Um portifólio das minhas bandas <span class="span_front">Favoritas</span> \m/ </h2>
+        </div>
+  
+      </section>
+
+      <nav class="nav_menu">
+
+        <div class="px-3 py-2 text-bg-dark border-bottom">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="C:/Users/Desktop/Desktop/Band_Exposer/index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg>
+                  Página Inicial
+              </a>
+    
+              <ul class="nav col-12 col-lg-auto my-2 pb-4 justify-content-center my-md-0 text-small">
+                <li class="categorias">
+                  <a class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"></use></svg>
+                    Categorias
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg>
+                    Músicas
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                    Resumos
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"></use></svg>
+                    Contatos
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </nav>
+
+     <section id="menu_categorias"> 
+        <div class="categoria_nova">
+          <h3 class="categ_h3"> Bandas Modernas</h3>
+          <hr class="categ_hr">
+          <ul class="categ_itens">
+            <li>Ghost</li>
+            <li>Mastodon</li>
+            <li>Gojira</li>
+            <li>Limp Bizkit</li>
+            <li>Mushroomhead</li>
+            <li>Trivium</li>
+            <li>Zeal & Ardor</li>
+            <li>Turnstile</li>
+            <li>Baest</li>
+          </ul>
+
+        </div>
+
+        <div class="categoria_legado">
+          <h3 class="categ_h3"> Bandas Legado </h3>
+          <hr class="categ_hr">
+          <ul class="categ_itens">
+            <li>Metallica</li>
+            <li>Misfits</li>
+            <li>Blue Oyster Cult</li>
+            <li>Suicidal Tendencies</li>
+            <li>Beastie Boys</li>
+            <li>Creedence Clearwater Revival</li>
+    
+          </ul>
+          
+        </div>
+
+     </section>
+
+    </header>
+
+    <main>
+
+      <section id="Bands_Swiper">
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <img class="img_bands swiper-slide" id="b_met" src="images/metallica.jpg"> 
+            <img class="img_bands swiper-slide" id="b_gho" src="images/ghost.jpg">
+            <img class="img_bands swiper-slide" id="b_mas" src="images/mastodon.jpg">
+            <img class="img_bands swiper-slide" id="b_mis" src="images/misfits.jpg">
+            <img class="img_bands swiper-slide" id="b_blu" src="images/blue-oyster.jpg">
+            <img class="img_bands swiper-slide" id="b_goj" src="images/gojira.jpg">
+            <img class="img_bands swiper-slide" id="b_lim" src="images/limp-bizkit.webp">
+            <img class="img_bands swiper-slide" id="b_mus" src="images/mushroomhead.jpg">
+            <img class="img_bands swiper-slide" id="b_sui" src="images/suicidal.jpg">
+            <img class="img_bands swiper-slide" id="b_tri" src="images/trivium.jpg">
+            <img class="img_bands swiper-slide" id="b_zea" src="images/zeal.jpg">
+            <img class="img_bands swiper-slide" id="b_tur" src="images/turnstile.jpg">
+            <img class="img_bands swiper-slide" id="b_bae" src="images/baest.jpg">
+            <img class="img_bands swiper-slide" id="b_bes" src="images/beastieboys.jpg">
+            <img class="img_bands swiper-slide" id="b_ccr" src="images/creedence.jpg">
+          </div>
+          <!--<div class="swiper-pagination"></div>-->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+      </section>
+
+      <section class="about_banda ab_metallica">
+        <h3> Metallica </h3>
+        <h4> " Os pioneiros do Thrash Metal " </h4>
+        <hr>
+
+        <img class="img1" src="images/metallica.jpg" alt="formação atual da banda Metallica, com Trujillo no baixo">
+        <p class="p1">  Metallica é sem dúvida uma das e, se não, a banda mais bem sucedida do Heavy Metal, pioneiros de um estilo de Metal mais pesado, rápido e agressivo que mais tarde seria cunhado de Thrash Metal, se tornando parte do Big Four of Thrash junto de Slayer, Megadeth e Anthrax. A banda já vendeu milhões de discos no mundo todo, recebeu 9 premiações ao Grammy e faz parte do Rock n Roll Hall of Fame desde 2009.</p>
+
+        <hr>
+
+        <img class="img2" src="images/metallica2.jpg"
+        alt="Metallica tocando em um show ao vivo">
+        <p class="p2">  Originários de Los Angeles e com base em San Francisco, o Metallica foi formado em 1981, após o vocalista e guitarrista James Hetfield se juntar ao baterista Lars Ulrich. Anos mais tarde se juntaria Kirk Hammett (ex-Exodus) e posteriormente Robert Trujillo (ex-Suicidal Tendencies). A banda também já contou como membros: as lendas Dave Mustaine (Megadeth), Cliff Burton (baixista original que infelizmente perdeu a vida em um acidente de ônibus da turnê) e Jason Newsted (com seus backing-vocals destruidores). </p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/metallica3.jpg"
+        alt="capa do disco Ride the Lightning">
+        <p class="p1">Na minha trajetória ouvindo e descobrindo música pesada, o Metallica fez parte importante da minha vida, sendo o álbum Ride the Lightning um dos primeiros que ouvi inteiro, me introduzindo ao som que tanto amo, nunca parando de acompanhar a banda desde então.</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Creeping Death -  <span> Metallica </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 1984 Blackened Recordings - Metallica </p>
+        </div>
+
+        <hr>
+
+      </section>
+
+      <section class="about_banda ab_ghost">
+        <h3> Ghost </h3>
+        <h4> " Misturando música Pop com a atmosfera sombria do Metal " </h4>
+        <hr>
+
+        <img class="img1" src="images/ghost.jpg"
+        alt="formação da banda Ghost com Papa Emeritus II">
+        <p class="p1">Ghost é sem dúvidas um dos novos expoentes do Rock e do Metal, misturando suas influências de Heavy Metal oitentista, Rock Progressivo e Psicodélico dos anos 70 e sons mais modernos com base no Rock Alternativo e até mesmo na música Pop. Junto a isso, sua imagem e ambientação baseadas no oculto e no satânico, com os músicos todos anônimos por trás das máscaras, liderados pelo sombria encarnação de um Papa Emeritus, líder das trevas que tem a incrível habilidade de seduzir e atrair novos ouvintes.</p>
+
+        <hr>
+
+        <img class="img2" src="images/ghost2.jpg"
+        alt="um dos Ghouls tocando guitarra solo">
+        <p class="p2">Formado em 2008 por Tobias Forge, o homem por trás da máscara de Papa, Ghost é uma banda sueca que vem alcançando um sucesso absurdo, contando com 5 álbuns de estúdio, além do respeito de diversos medalhões da cena, desde James Hetfield (Metallica), Phill Anselmo (Pantera), Iron Maiden, Dave Grohl (Foo Fighters) até Rob Halford (Judas Priest).</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/ghost3.jpg" alt="capa do álbum Opus Eponymous">
+        <p class="p1">Para mim Ghost, faz parte da minha passagem pelo Ensino Médio, após dois bons amigos me apresentarem à banda e após passar o choque inicial da imagem que o grupo passava, me encantei com a simplicidade e ao mesmo tempo beleza das melodias, com músicas muito fáceis de guardar na cabeça e pela mistura incrível e balanceada de peso e suavidade, me lembrando de outra banda que curto bastante, o Blue Oyster Cult.</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Stand By Him -  <span> Ghost </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 2010 Rise Above Records - Ghost </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_mastodon">
+        <h3> Mastodon </h3>
+        <h4> " Os Deuses do Metal Psicodélico e do Stoner " </h4>
+        <hr>
+
+        <img class="img1" src="images/mastodon.jpg">
+        <p class="p1">Mastodon é uma banda que trás uma sonoridade nova e refrescante ao Metal, seja com sua pegada psicodélica e experimental, seja pelos 3 vocais diferentes, já que até mesmo o baterista Brann Dailor canta, ou seja pela sonoridade complexa e lindas melodias. Um verdadeiro revival do Rock Progressivo dos anos 70.</p>
+
+        <hr>
+
+        <img class="img2" src="images/mastodon2.jpg">
+        <p class="p2">A banda foi fundada em Atlanta, na Geórgia - EUA, em 1999 e é um dos principais nomes da New Wave of American Heavy Metal, onda de bandas novas que formam as principais atrações e Headliners dos dias atuais. o Mastodon trás albuns conceituais que mais parecem obras-primas, contando histórias baseadas em Moby Dick, viagem astral, teorias espaciais e até mesmo a luta contra o Câncer, sem dúvidas escutar um álbum deles é uma tremenda viagem. 
+
+        </p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/mastodon3.jpg">
+        <p class="p1">Pra mim Mastodon tem um lugar especial no coração, pois têm tanto aquele som empolgante de ouvir das bandas de Hard Rock clássico, como a brutalidade das bandas de Metal pesado que passei a escutar depois de ser introduzido à eles. É sem dúvidas uma das minhas 5 bandas preferidas, consigo passar horas escutando esses caras sem cansar, seus álbuns são simplesmente obras-primas para se ouvir inteiras.</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Once More 'Round the Sun -  <span> Mastodon </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> ©  2014 Reprise Records - Mastodon </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_misfits">
+        <h3> Misfits </h3>
+        <h4> " Os pais do Horror Punk " </h4>
+        <hr>
+
+        <img class="img1" src="images/misfits.jpg">
+        <p class="p1">Se tem uma banda que todo amante de Rock, Metal ou Punk deveria ouvir, essa banda é Misfits, o que pode ser confirmado pela quantidade de bandas influenciadas por eles e pela quantidade de tatuagens e camisetas estampadas em diversas personalidades desse tipo de som. A banda considerada fundadora do Horror Punk, trazendo como temática vários elementos do Horror em si, desde a sua caveira símbolo (do filme Crimson Ghost), até músicas sobre filmes como A Noite dos Mortos Vivos, Psicose, A Mosca, e até mesmo King Kong.</p>
+
+        <hr>
+
+        <img class="img2" src="images/misfits2.jpg">
+        <p class="p2">Fundada em 1977 por Glenn Danzig, em New Jersey, a sonoridade Punk e os visuais inspirados em um Elvis Zumbi e caveiras ajudou a chamar atenção da banda que mais tarde se tornaria um amuleto do Metal. Seja na Era Danzig ou na polêmica Era Graves, Misfits nos presenteou com diversos sons curtos mas agressivos, excêntricos e refrões que grudam facilmente na cabeça. </p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/misfits3.jpg">
+        <p class="p1">Se pudesse eternizar uma banda em mim mesmo, com certeza seria os Misfits, porque é muito bom escutar suas músicas, sendo até mesmo uma das mais fáceis de aprender à tocar e se empolgar, graças a estrutura punk (simples e rápida). I got something to say... </p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Where Eagles Dare -  <span> Misfits </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 1986 Caroline Records Inc - Misfits </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_BOC">
+        <h3> Blue Oyster Cult </h3>
+        <h4> " Ficção científica, terror e Rock n' Roll " </h4>
+        <hr>
+
+        <img class="img1" src="images/blue-oyster.jpg">
+        <p class="p1">Se o Ghost hoje </p>
+
+        <hr>
+
+        <img class="img2" src="images/blue-oyster.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/blue-oyster.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Godzilla -  <span> Blue Oyster Cult </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 1977 Columbia Records, a division of Sony Music Entertainment - Blue Oyster Cult </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_gojira">
+        <h3> Gojira </h3>
+        <h4> " Os Ativistas mais brutais do mundo " </h4>
+        <hr>
+
+        <img class="img1" src="images/gojira.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/gojira.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/gojira.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Silvera -  <span> Gojira </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 2016 Roadrunner Records - Gojira </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_limpbiz">
+        <h3> Limp Bizkit </h3>
+        <h4> " Os embaixadores do Nu Metal e dos anos 2000 " </h4>
+        <hr>
+
+        <img class="img1" src="images/limp-bizkit.webp">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/limp-bizkit.webp">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/limp-bizkit.webp">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" My Generation -  <span> Limp Bizkit </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> ©  2000 Flip/Interscope Records - Limp Bizkit </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_mushroom">
+        <h3> Mushroomhead </h3>
+        <h4> " Os mascarados talentosos de Cleveland " </h4>
+        <hr>
+
+        <img class="img1" src="images/mushroomhead.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/mushroomhead.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/mushroomhead.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" We Are the Truth -  <span> Mushroomhead </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 2014 Megaforce Records
+            - Mushroomhead </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_suicidal">
+        <h3> Suicidal Tendencies </h3>
+        <h4> " Thrash Metal e Hardcore, stay Cyco!!! " </h4>
+        <hr>
+
+        <img class="img1" src="images/suicidal.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/suicidal.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/suicidal.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Possessed to Skate -  <span> Suicidal Tendencies </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 1987 Caroline Records Inc - Suicidal Tendencies </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_trivium">
+        <h3> Trivium </h3>
+        <h4> " Metal moderno, incrivel songwriting e vocais poderosos " </h4>
+        <hr>
+
+        <img class="img1" src="images/trivium.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/trivium.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/trivium.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Sever the Hand -  <span> Trivium </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 2017 Roadrunner Records - Trivium </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_zeal">
+        <h3> Zeal & Ardor </h3>
+        <h4> " Black Metal e Blues, uma combinação intrigante " </h4>
+        <hr>
+
+        <img class="img1" src="images/zeal.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/zeal.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/zeal.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Götterdämmerung -  <span> Zeal & Ardor </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 2021 Redacted GmbH exclusive license to MVKA - Zeal & Ardor </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_turn">
+        <h3> Turnstile </h3>
+        <h4> " O rejuvenescimento do Hardcore nos dias atuais " </h4>
+        <hr>
+
+        <img class="img1" src="images/turnstile.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/turnstile.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/turnstile.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Fazed Out -  <span> Turnstile </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 2015 Roadrunner Records - Turnstile </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_baest">
+        <h3> Baest </h3>
+        <h4> " Os filhos pródigos do Death Metal " </h4>
+        <hr>
+
+        <img class="img1" src="images/baest.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/baest.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/baest.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Ecclesia -  <span> Baest </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 2021 Century Media Records Ltd. - Baest </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_beastie">
+        <h3> Beastie Boys </h3>
+        <h4> " Rap, Punk, Rock e Atitude " </h4>
+        <hr>
+
+        <img class="img1" src="images/beastieboys.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/beastieboys.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/beastieboys.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" So What'Cha Want -  <span> Beastie Boys </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 2009 Capitol Records, LLC - Beastie Boys </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+      <section class="about_banda ab_creedence">
+        <h3> Creedence Clearwater Revival </h3>
+        <h4> " O Country Rock do Pântano " </h4>
+        <hr>
+
+        <img class="img1" src="images/creedence.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img2" src="images/creedence.jpg">
+        <p class="p2">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <hr>
+
+        <img class="img1 im_album" src="images/creedence.jpg">
+        <p class="p1">fuhewrfu9er hrufhr grough rg uhr egoureh groe ghrwe gouirhg reouig herg oiurhg reog whregoiuwregh eroiugherg oiuregheroigherwg oiwrehg wreoi hwre goirehgrweoig hreg oierhg wreoig hwregoirewh greoig hwreg oireh greoi ghre goireh greoig hrweg oi</p>
+
+        <div class="player">
+          <img class="play_icon" src="icons/play.png">
+          <p class="player_p"> <i>" Run Through The Jungle -  <span> Creedence Clearwater Revival </span>" </i> </p>
+        </div>
+
+        <div class="band_rights">
+          <p class="rights_p"> © 1976 Craft Recordings, Distributed by Concord. - Creedence Clearwater Revival </p>
+        </div>
+
+        <hr>
+        
+      </section>
+
+    </main>
+
+    <footer class="rodape">
+
+          <a class="footer-link" href="https://www.linkedin.com/in/matheus-m-277909127/">LinkedIn</a>
+          <a class="footer-link" href="https://twitter.com/CodeHeadbanger?t=hmR9YzRILJM35hTwpF61WA&s=09">Twitter/X</a>
+          <a class="footer-link" href="https://github.com/MatheusMCez">GitHub</a>
+          <p class="direitos_autorais">© 2024 Matheus Mendes Cezar</p>
+          <p class="direitos_autorais2">Todos os direitos reservados</p>
+
+        </footer>
+  
+      </div>
+
+    </footer>
+
+    <!-- Link do JS do jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Link do JS do Swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Link do JS do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Link do JS do Site -->
+    <script src="JS/index.js" charset="UTF-8"></script>
+  
+  </body>
+
+</html>
